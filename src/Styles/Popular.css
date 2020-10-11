@@ -1,0 +1,73 @@
+.popular-container{
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: repeat(5, 20vw);
+    width: 98vw;
+}
+.poster{
+ width: 19vw;
+ overflow: hidden;
+ height: 60vh;
+ cursor: pointer;
+ 
+}
+
+.movie-poster{
+   
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-info{
+    color: teal;
+    position: absolute;
+    bottom: 0;
+    left: 0 ;
+    right: 0;
+    background: white;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: all 0.7s ease-in-out;
+    max-height: 59vh;
+    overflow-y: scroll;
+    text-decoration: none;
+}
+
+.movie-poster:hover .movie-info{
+    transform: translateY(0%);
+    background: teal;
+    color: white;
+    
+}
+
+.movie-info h4{
+    background: teal;
+    color: white;
+}
+.movie-info p{
+    background: teal;
+    color: white;
+}
+.movie-info i{
+    background: teal;
+    color: yellow;
+}
+.nav-container{
+    text-align: center;
+
+}
+
+.nav-btn{
+    background: teal;
+    color:white;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.nav-btn:hover{
+    background: white;
+    color:teal;
+}
+.nav-btn:active{
+    transform: scale(1.2);
+}

@@ -1,0 +1,24 @@
+.search-container{
+ 
+  cursor: pointer;
+}
+.search-render-results{
+    z-index: 999;
+}
+.search-result{
+    color: black;
+    border-bottom:3px solid aquamarine;
+    background: blanchedalmond;
+   
+
+}
+
+input {
+    border-radius: 25px;
+    background:teal;
+    color: white;
+   
+}
+label{
+    color: teal;
+}

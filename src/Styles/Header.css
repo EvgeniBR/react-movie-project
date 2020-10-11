@@ -1,0 +1,35 @@
+* {
+box-sizing: border-box;
+background: #131313;
+}
+*:before, *:after {box-sizing: border-box;}
+
+.body{
+    background: #131313;
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    color:white;
+    background-color: #131313;
+}
+
+.header-links a{
+    margin: 1rem;
+    padding:1rem;
+}
+
+.btn{
+    width: 10vw;
+    text-decoration: none;
+    color: teal;
+}
+
+.btn:hover{
+    background: teal;
+    color:white;
+    border-radius: 25px;
+}

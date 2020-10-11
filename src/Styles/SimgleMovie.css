@@ -1,0 +1,73 @@
+.singleMovieContainer{
+  display: flex;
+  
+}
+
+.poster-holder img{
+    padding: 1rem;
+    height: 91vh;
+}
+.rating_trailer{
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-between; */
+    
+}
+.data-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    min-height:  50vh; ;
+}
+.trailer{
+    
+}
+.data-title{
+    font-size: 3rem;
+}
+.data-title span{
+    font-size: 0.8rem;
+}
+.data-actors{
+    font-size: 1.5rem;
+}
+.data-plot{
+    font-size: 2rem;
+}
+.data-director{
+    font-size: 1.3rem;
+}
+.rating__rotten__logo,
+.rating__metacritic__logo,
+.rating__imdb__logo{
+    width:90px;
+    height: 90px;
+    animation: logoRotate 15s  infinite linear;
+}
+
+@keyframes logoRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.rating__rotten,
+.rating__metacritic,
+.rating__imdb{
+    display: flex;
+    padding: 1rem;
+    
+}
+
+.rating__rotten__data,
+.rating__metacritic__data,
+.rating__imdb__data{
+    padding: 2rem;
+    color: white;
+}
