@@ -2,7 +2,11 @@
     overflow: hidden;
     display:grid;
     grid-template-columns: repeat(5, 20vw);
-    width: 98vw;
+    width: 99vw;
+    background: #131313;
+}
+.popular-wraper{
+    background: #131313;
 }
 .poster{
  width: 19vw;
@@ -24,49 +28,52 @@
     bottom: 0;
     left: 0 ;
     right: 0;
-    background: white;
+    
     padding: 1rem;
     transform: translateY(100%);
     transition: all 0.7s ease-in-out;
     max-height: 59vh;
-    overflow-y: scroll;
+   max-width: 19vw;
     text-decoration: none;
 }
 
 .movie-poster:hover .movie-info{
     transform: translateY(0%);
-    background: teal;
+    background: rgba(103,58,183,1);
     color: white;
     
 }
 
 .movie-info h4{
-    background: teal;
+    background: rgba(103,58,183,1);;
     color: white;
 }
 .movie-info p{
-    background: teal;
+    background: rgba(103,58,183,1);;
     color: white;
 }
 .movie-info i{
-    background: teal;
+    background: rgba(103,58,183,1);;
     color: yellow;
 }
 .nav-container{
     text-align: center;
+    background: #131313;
 
 }
 
 .nav-btn{
-    background: teal;
+    background: transparent;
     color:white;
+    border:1px solid grey;
     border-radius: 100%;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
+    transition: all 0.4s;
 }
 .nav-btn:hover{
-    background: white;
-    color:teal;
+    background: rgba(103,58,183,1);
+    color:white;
 }
 .nav-btn:active{
     transform: scale(1.2);

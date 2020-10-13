@@ -21,23 +21,34 @@
     padding: 1rem;
     min-height:  50vh; ;
 }
-.trailer{
-    
-}
+
 .data-title{
     font-size: 3rem;
+    margin: 5px;
+    padding: 5px;
 }
 .data-title span{
     font-size: 0.8rem;
+    margin: 5px;
+    padding: 5px;
 }
 .data-actors{
     font-size: 1.5rem;
+    margin: 5px;
+    padding: 5px;
 }
 .data-plot{
     font-size: 2rem;
+    margin: 5px;
 }
 .data-director{
     font-size: 1.3rem;
+    margin: 5px;
+    padding: 5px;
+}
+.data-genre{
+    margin: 5px;
+    padding: 5px;
 }
 .rating__rotten__logo,
 .rating__metacritic__logo,

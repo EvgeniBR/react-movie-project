@@ -6,9 +6,9 @@ import TrandingThisWeek from "./TrandingThisWeek";
 class HomePage extends React.Component {
   render() {
     return (
+    <div className="home-body">
     <div>
-    <div>
-      <h2 style={{color:`white`}}>Top Rated:</h2>
+      <h2 >Top Rated:</h2>
       <TopRated />
     </div>
     <div>

@@ -18,7 +18,7 @@ const TopRated = (props) => {
               <div className="similar-container" key={movie.id}>
                   <div>
               <img
-                className="poster"
+                className="carusel-poster"
                 src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
                 alt={movie.id}
                 onClick={()=>handleClickOnTitle(movie.id)}
@@ -70,26 +70,26 @@ const breakPoints =[
   return(
     <div>
         <Carousel breakPoints={breakPoints}>
-      <div >{title1}</div>
-      <div >{title2}</div>
-      <div >{title3}</div>
-      <div >{title4}</div>
-      <div >{title5}</div>
-      <div >{title6}</div>
-      <div >{title7}</div>
-      <div >{title8}</div>
-      <div >{title9}</div>
-      <div >{title10}</div>
-      <div >{title11}</div>
-      <div >{title12}</div>
-      <div >{title13}</div>
-      <div >{title14}</div>
-      <div >{title15}</div>
-      <div >{title16}</div>
-      <div >{title17}</div>
-      <div >{title18}</div>
-      <div >{title19}</div>
-      <div >{title20}</div>
+      <div className="carusel-poster">{title1}</div>
+      <div className="carusel-poster" >{title2}</div>
+      <div className="carusel-poster">{title3}</div>
+      <div className="carusel-poster">{title4}</div>
+      <div className="carusel-poster">{title5}</div>
+      <div className="carusel-poster">{title6}</div>
+      <div className="carusel-poster">{title7}</div>
+      <div className="carusel-poster">{title8}</div>
+      <div className="carusel-poster">{title9}</div>
+      <div className="carusel-poster">{title10}</div>
+      <div className="carusel-poster">{title11}</div>
+      <div className="carusel-poster">{title12}</div>
+      <div className="carusel-poster">{title13}</div>
+      <div className="carusel-poster">{title14}</div>
+      <div className="carusel-poster">{title15}</div>
+      <div className="carusel-poster">{title16}</div>
+      <div className="carusel-poster">{title17}</div>
+      <div className="carusel-poster">{title18}</div>
+      <div className="carusel-poster">{title19}</div>
+      <div className="carusel-poster">{title20}</div>
       </Carousel>
     </div>
   )

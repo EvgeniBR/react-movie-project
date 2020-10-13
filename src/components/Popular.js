@@ -51,7 +51,7 @@ const Popular = ({ data, onNextPageClick, onPrevPageClick, onGoToPage }) => {
   }, [data]);
 
   return (
-    <div>
+    <div className="popular-wraper">
       <div className="nav-container">
       <button className="nav-btn" onClick={prevPageHandle}>&lt;&lt;</button>
    

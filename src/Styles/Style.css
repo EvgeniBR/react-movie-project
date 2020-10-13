@@ -7,18 +7,42 @@
 }
 .search-result{
     color: black;
-    border-bottom:3px solid aquamarine;
-    background: blanchedalmond;
-   
+    border-bottom:3px solid grey;
+    background: #131313;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 1rem;
+    width: 230px;
+    vertical-align: text-bottom;
+}
 
+
+
+.title-span{
+    vertical-align: text-bottom;
+    align-self: center;
+}
+.rating-span{
+    vertical-align: text-bottom;
+    align-self: center;
+}
+.rating-span i{
+    color: yellow;
 }
 
 input {
     border-radius: 25px;
-    background:teal;
-    color: white;
-   
 }
 label{
-    color: teal;
+    color: white;
+}
+label:active{
+    color: rgba(103,58,183,1);
+}
+
+.search-poster{
+    max-width: 70px;
+    max-height: 70px;
 }

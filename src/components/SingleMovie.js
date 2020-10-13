@@ -138,7 +138,7 @@ const SingleMovie = (props) => {
           <div
             className="data-director"
             style={{
-              color: `rgb(${colors.Muted._rgb[0]},${colors.Muted._rgb[1]},${colors.Muted._rgb[2]})`,
+              color: `rgb(${colors.LightMuted._rgb[0]},${colors.LightMuted._rgb[1]},${colors.LightMuted._rgb[2]})`,
             }}
           >
             {mySuperObject.director}
@@ -146,7 +146,7 @@ const SingleMovie = (props) => {
           <div
             className="data-genre"
             style={{
-              color: `rgb(${colors.Muted._rgb[0]},${colors.Muted._rgb[1]},${colors.Muted._rgb[2]})`,
+              color: `rgb(${colors.LightMuted._rgb[0]},${colors.LightMuted._rgb[1]},${colors.LightMuted._rgb[2]})`,
             }}
           >
             {mySuperObject.genre}

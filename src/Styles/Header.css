@@ -1,12 +1,11 @@
 * {
 box-sizing: border-box;
-background: #131313;
+margin: 0;
+padding: 0;
 }
 *:before, *:after {box-sizing: border-box;}
 
-.body{
-    background: #131313;
-}
+
 
 header{
     height: 5vh;
@@ -19,17 +18,43 @@ header{
 
 .header-links a{
     margin: 1rem;
-    padding:1rem;
+    padding:0.5rem;
 }
 
 .btn{
     width: 10vw;
     text-decoration: none;
-    color: teal;
+    color: white;
+    transition: all 0.4s;
+    border-radius: 20px;
+    border: 1px solid grey;
 }
 
 .btn:hover{
-    background: teal;
+    border: 2px solid white;
     color:white;
-    border-radius: 25px;
+    border-radius: 20px;
+    background:rgba(103,58,183,1) ;
+}
+
+
+.carusel-poster{
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+    cursor: pointer;
+    margin: 1rem;
+}
+.home-body{
+    background: #131313;
+    color:white;
+}
+
+.rec.rec-arrow {
+    background: transparent;
+    color: white;
+}
+.rec.rec-dot {
+    background: transparent;
+    border: 1px solid white;
 }
