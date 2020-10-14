@@ -59,6 +59,7 @@ header{
 .rec.rec-dot {
     background: transparent;
     border: 1px solid white;
+   
 }
 
 @media only screen and (max-width: 700px) {
@@ -84,6 +85,11 @@ header{
         transition: all 0.4s;
         border:1px solid transparent;
         
+    }
+    .rec.rec-dot {
+        background: transparent;
+        border: 1px solid white;
+        margin: 1px;
     }
    
   }
