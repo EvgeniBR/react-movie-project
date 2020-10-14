@@ -56,6 +56,7 @@ const App = () => {
       return;
     } else {
       setCurrentPage(currentPage - 1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
   const onNextPageClick = () => {
@@ -63,6 +64,7 @@ const App = () => {
       return;
     } else {
       setCurrentPage(currentPage + 1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       
     }
   };
