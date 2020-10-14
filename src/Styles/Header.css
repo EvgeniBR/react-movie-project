@@ -61,7 +61,7 @@ header{
     border: 1px solid white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     header{
         height: 12vh;
         display: flex;
