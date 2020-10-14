@@ -2,17 +2,19 @@
     overflow: hidden;
     display:grid;
     grid-template-columns: repeat(5, 20vw);
-    width: 99vw;
+    width: 98vw;
     background: #131313;
 }
 .popular-wraper{
     background: #131313;
+    padding: 10px;
 }
 .poster{
  width: 19vw;
  overflow: hidden;
  height: 60vh;
  cursor: pointer;
+ margin-bottom: 5px;
  
 }
 

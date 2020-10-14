@@ -14,6 +14,7 @@ header{
     padding:1rem;
     color:white;
     background-color: #131313;
+   
 }
 
 .header-links a{
@@ -48,6 +49,7 @@ header{
 .home-body{
     background: #131313;
     color:white;
+    padding: 15px;
 }
 
 .rec.rec-arrow {
