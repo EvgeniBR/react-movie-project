@@ -60,3 +60,30 @@ header{
     background: transparent;
     border: 1px solid white;
 }
+
+@media only screen and (max-width: 600px) {
+    header{
+        height: 12vh;
+        display: flex;
+        justify-content: space-between;
+        padding:1rem;
+        color:white;
+        background-color: #131313;
+       
+    }
+    .header-links a{
+        display: flex;
+        margin: 0;
+        padding:0;
+        
+    }
+    .btn{
+        width: 20vw;
+        text-decoration: none;
+        color: white;
+        transition: all 0.4s;
+        border:1px solid transparent;
+        
+    }
+   
+  }

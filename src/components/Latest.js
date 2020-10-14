@@ -35,22 +35,15 @@ const Popular = ({ data ,onNextPageClick, onPrevPageClick, }) => {
 
     console.log(data);
   }, [data]);
-  const nextPageHandle = () => {
-    onNextPageClick();
-    
-  };
-  const prevPageHandle = () => {
-    onPrevPageClick();
-    
-  };
+ 
 
 
   return(
     <div>
       <div className="popular-container">{posters}</div>
-      <button onClick={prevPageHandle}>&lt;&lt;</button>
+      
    
-      <button onClick={nextPageHandle}>&gt;&gt;</button>
+     
     </div>
   )
 }

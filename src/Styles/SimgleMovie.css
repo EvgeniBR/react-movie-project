@@ -82,3 +82,27 @@
     padding: 2rem;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .singleMovieContainer{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+      }
+      .poster-holder img{
+        padding: 1rem;
+        height: 61vh;
+        width:100% ;
+    }
+    .rating_trailer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-content: space-between; */
+        
+    }
+    iframe{
+        width: 380px;
+        height: 250px;
+    }
+}

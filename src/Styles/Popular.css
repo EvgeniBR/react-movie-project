@@ -80,3 +80,22 @@
 .nav-btn:active{
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .popular-container{
+        overflow: hidden;
+        display:grid;
+        grid-template-columns: repeat(2, 48vw);
+        width: 98vw;
+        background: #131313;
+        gap: 10px;
+    }
+    .poster{
+        width: 45vw;
+        overflow: hidden;
+        height: 60vh;
+        cursor: pointer;
+        margin-bottom: 5px;
+        
+       }
+}

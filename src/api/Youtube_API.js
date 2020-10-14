@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const KEY = 'AIzaSyA_jEsAeTpTuOCg1W1C4P_AJ2PQmh-mgx4';
-const KEY2 = 'AIzaSyBWR9ojGgL6CvRXpQ66ZLW6Dlx4_qPo4ok';
+// const KEY = 'AIzaSyA_jEsAeTpTuOCg1W1C4P_AJ2PQmh-mgx4';
+// const KEY2 = 'AIzaSyBWR9ojGgL6CvRXpQ66ZLW6Dlx4_qPo4ok';
 const KEY3 = 'AIzaSyDncr52pElQdDsbWCWUEofFEeL9pTk9tfM';
 
 export default axios.create({
