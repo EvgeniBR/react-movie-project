@@ -1,5 +1,7 @@
 # Welcone to My version of a movie database website
 
+## in this project i use few APIs that relay on each other asynchronously
+
 ### TMDB Database
 [<img align="center" alt="tic tac toe" width="400px" src="https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg" />
 
